@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
 }
 
 .nav__Bar {
@@ -105,21 +105,17 @@ body {
   text-decoration: none;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 300px;
-  justify-content: center;
-}
 /* FIN SECCION INICIO */
 /* INICIO SECCION MENU */
+section {
+  display: block;
+}
 
-.grid__Menu {
-  display: grid;
-  padding: 40px;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-evenly;
-  justify-items: center;
-  align-items: center;
+.menu__Container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .menu {
@@ -170,6 +166,7 @@ body {
   text-align: justify;
   padding: 20px;
 }
+
 .contacto {
   background-color: #fff;
   padding: 40px;
@@ -180,7 +177,6 @@ body {
   font-size: 1.5rem;
   line-height: 30px;
   text-align: justify;
-  padding: 20px;
 }
 
 .telefono {
@@ -329,4 +325,8 @@ footer {
   #form__Content h2 {
     font-size: 2rem;
   }
+}
+
+.display-1 {
+  text-align: center;
 }

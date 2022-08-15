@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -73,7 +72,7 @@ body {
   border-radius: 10px;
 }
 
-.container__Inicio:after {
+.container__Inicio :after {
   content: "";
   position: absolute;
   width: 100%;
@@ -157,6 +156,7 @@ section {
   transform: scale(1.08);
   background-color: #fdb001;
 }
+
 /* FIN SECCION MENU */
 /* INICIO SECCION NOSOTROS */
 .texto__Nosotros {
@@ -186,9 +186,11 @@ section {
 .ubicacion {
   padding: 10px;
 }
+
 iframe {
   margin: 0;
 }
+
 /* FIN SECCION NOSOTROS */
 /* INICIO SECCION CONTACTANOS */
 .form__Container {
@@ -257,9 +259,9 @@ textarea {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
 }
+
 /* FIN SECCION CONTACTANOS */
 /* INICIO SECCION AYUDA */
-
 /* FIN SECCION AYUDA */
 footer {
   padding: 0.5em;
@@ -304,29 +306,22 @@ footer {
   .navbar__Links li {
     text-align: center;
   }
-
   .navbar__Links li a {
     padding: 0.5rem 1rem;
   }
-
   .navbar__Links.active {
     display: flex;
   }
-
   .grid__Menu {
     display: grid;
     grid-template-rows: 150px;
   }
-
   #form__Content {
     width: 90%;
   }
-
   #form__Content h2 {
     font-size: 2rem;
   }
 }
 
-.display-1 {
-  text-align: center;
-}
+/*# sourceMappingURL=style.css.map */

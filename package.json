@@ -7,7 +7,7 @@
     "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
-    "type": "git",
+    "type": "gi",
     "url": "git+https://github.com/OneSkanLeaf/RestaurantCoder.git"
   },
   "keywords": [],
